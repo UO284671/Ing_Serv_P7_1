@@ -86,5 +86,18 @@
                 android:onClick="onClickToEuros"
                 android:text="@string/button_to_euros" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="#E0E0E0"
+            android:padding="16dp"
+            android:text="Cargando datos..."
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
